@@ -1,7 +1,7 @@
 {
     "name" : "zhonggangzhonghe",
     "description" : "website",
-    "author" : "chu zheng",
+    "author" : "chuzheng",
     "version" : "0.0.1",
     "private" : true,
     "main" : "./lib/app.js",
@@ -16,7 +16,7 @@
         "mongoose"  : "*"
     },
     "scripts": {
-        "start": "node ./lib/app.js"
+        "start": "node ./lib/app.js",
         "test": "make test"
     }
 } 
