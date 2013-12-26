@@ -1,0 +1,19 @@
+body {
+  background: #fff;
+  font-family: '微软雅黑';
+}
+.top-bar {
+  background-color: #241f31;
+  height: 60px;
+}
+.content-width {
+  width: 960px;
+  margin: 0 auto;
+}
+.logo {
+  width: 210px;
+  height: 23px;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px 0 0 0;
+}
