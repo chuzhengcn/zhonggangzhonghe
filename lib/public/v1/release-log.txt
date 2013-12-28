@@ -1,0 +1,44 @@
+Version 1.8
+-Bug Fix: Removed BOM from files
+-Bug Fix for Twitter Feeds Widget: When the tweets were very big, the answer sent by Twitter was partially read.
+-Bug Fix: removed the image overlap in the portfolio overview after the page is loaded for the first time
+-Improvement: Replaced the rel attributes with data HTML5 attribute (for W3C validation)
+-Improvement: Removed the webkitAllowFullScreen, mozallowfullscreen and frameborder="0" attributes from iframes (for W3C validation)
+-New Feature: added the possibility of setting the relative time for the Twitter widget thought HTML5 data attributes (useful in case of website translation)
+
+Version 1.7.1
+-Replaced the MailChimp PHP library with its latest version which is using the new API 2.x. 
+The MailChimp API 1.x was deprecated.
+
+Version 1.7
+
+-Fixed the indexing mechanism for the languages that contain special characters.
+-Added HTML5 customization attributes for the following elements: tabs, toggles and accordion.
+
+Version 1.6.2
+
+-Fixed the PHP version. The settings.php file was not included at the top of the PHP files.
+-Fixed the menu animation when the menu items are opened at the left-hand side of their parent.
+-Fixed FlexSlider. In some situations, the first image was not loaded until the user clicked on the navigation arrows.
+
+Version 1.6.1
+
+-Fixed a small Twitter JavaScript issue. File modified: custom.js
+-Fixed the layout in the PHP version
+
+
+Version 1.6
+
+-Fixed the Twitter plugin (see the 'twitter-patch' folders included in the download archive)
+
+
+Version 1.5
+
+-Fixed image loading in FlexSlider on IE
+-Modified 'custom.js', located in the 'js' folder
+
+
+Version 1.4
+
+-Upgraded Revolution Slider - various modifications 
+-Integrated newsletter with MailChimp
