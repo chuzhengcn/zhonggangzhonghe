@@ -11,8 +11,9 @@ body {
   margin: 0 auto;
 }
 .logo {
+  background: url("/images/zhuoyue/logo.fw.png") 0 20px no-repeat;
   width: 210px;
-  height: 23px;
+  height: 43px;
   color: #fff;
   font-size: 20px;
   padding: 20px 0 0 0;
