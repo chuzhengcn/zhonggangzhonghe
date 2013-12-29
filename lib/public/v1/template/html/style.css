@@ -16,8 +16,8 @@ Author URI: http://www.ixtendo.com
 /* ---------------------------------------------------------------------- */
 /* Imported Stylesheets (Their order is important.)
 /* ---------------------------------------------------------------------- */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,300italic,400italic,600italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Nunito:400,700,300);
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,300italic,400italic,600italic,700italic);*/
+/*@import url(http://fonts.googleapis.com/css?family=Nunito:400,700,300);*/
 
 @import url('css/html5-reset.css');
 
@@ -292,6 +292,10 @@ mark {
 
 .note {
 	color: #E64141;	
+}
+
+.chinese-p {
+	text-indent: 24px;
 }
 
 /* ---------------------------------------------------------------------- */
